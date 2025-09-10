@@ -2168,7 +2168,7 @@ Show # %H6 $type->sockets->general $tier->c !currency_c
 	PlayEffect White
 	MinimapIcon 1 Yellow Circle
 
-Show # %H5 $type->sockets->general $tier->d !currency_d
+Hide # %H5 $type->sockets->general $tier->d !currency_d
 	Class == "Socketable"
 	BaseType == "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Storm Rune" "Iron Rune"
 	SetFontSize 40
@@ -3053,7 +3053,7 @@ Show # %D4 $type->currency->leveling $tier->magic
 
 Show # $type->currency $tier->s !apex_stier
 	Class == "Stackable Currency"
-	BaseType == "Albino Rhoa Feather" "Ancient Collarbone" "Ancient Jawbone" "Ancient Rib" "Divine Orb" "Hinekora's Lock" "Mirror of Kalandra" "Perfect Chaos Orb" "Perfect Exalted Orb" "Perfect Jeweller's Orb"
+	BaseType == "Albino Rhoa Feather" "Ancient Collarbone" "Ancient Jawbone" "Ancient Rib" "Divine Orb" "Hinekora's Lock" "Mirror of Kalandra" "Perfect Chaos Orb" "Perfect Exalted Orb"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3064,7 +3064,7 @@ Show # $type->currency $tier->s !apex_stier
 
 Show # $type->currency $tier->a !currency_a
 	Class == "Stackable Currency"
-	BaseType == "Fracturing Orb" "Orb of Annulment" "Perfect Regal Orb" "Preserved Collarbone"
+	BaseType == "Fracturing Orb" "Orb of Annulment" "Perfect Regal Orb" "Preserved Collarbone" "Perfect Jeweller's Orb"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3085,28 +3085,28 @@ Show # $type->currency $tier->b !currency_b
 	MinimapIcon 1 Yellow Circle
 
 Show # $type->currency $tier->c !currency_c
-Class == "Stackable Currency"
-BaseType == "Exalted Orb" "Gemcutter's Prism" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Jawbone" "Preserved Vertebrae"
-SetFontSize 42
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 245 139 87 255
-PlayEffect White
-MinimapIcon 1 Yellow Circle
+	Class == "Stackable Currency"
+	BaseType == "Exalted Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Jawbone" "Preserved Vertebrae"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 245 139 87 255
+	PlayEffect White
+	MinimapIcon 1 Yellow Circle
 
 Show # %H5 $type->currency $tier->d !currency_d
-Class == "Stackable Currency"
-BaseType == "Glassblower's Bauble" "Chance Shard" "Orb of Alchemy" "Vaal Orb" "Regal Orb"
-SetFontSize 40
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 240 180 100 255
-PlayEffect White
-MinimapIcon 2 White Circle
+	Class == "Stackable Currency"
+	BaseType == "Chance Shard" "Orb of Alchemy" "Vaal Orb" "Regal Orb"
+	SetFontSize 40
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 240 180 100 255
+	PlayEffect White
+	MinimapIcon 2 White Circle
 
 Hide # %H3 $type->currency $tier->e !currency_e
 	Class == "Stackable Currency"
-	BaseType == "Arcanist's Etcher" "Blacksmith's Whetstone" "Greater Orb of Transmutation" "Greater Orb of Augmentation" "Orb of Alchemy" "Regal Orb" "Artificer's Orb" "Vaal Orb" "Greater Jeweller's Orb" "Armourer's Scrap"
+	BaseType == "Arcanist's Etcher" "Blacksmith's Whetstone" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Orb of Transmutation" "Greater Orb of Augmentation" "Orb of Alchemy" "Regal Orb" "Artificer's Orb" "Vaal Orb" "Greater Jeweller's Orb" "Armourer's Scrap"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
