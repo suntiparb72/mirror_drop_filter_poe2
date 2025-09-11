@@ -456,6 +456,27 @@ BaseType == "Gemini Bow"
 Rarity Normal Unique
 ItemLevel >= 78
 
+# FilterBlade: Conditional Entry
+Show
+	SetBackgroundColor 60 0 0
+	SetBorderColor 200 0 0
+	SetFontSize 45
+	MinimapIcon 0 Blue Circle
+	BaseType == "Dueling Wand" "Galvanic Wand" "Siphoning Wand" "Attuned Wand"
+	Rarity Normal Magic Unique
+	ItemLevel >= 81
+	SetTextColor 255 149 244
+
+# FilterBlade: Conditional Entry
+Show
+	SetBackgroundColor 60 0 0
+	SetBorderColor 200 0 0
+	SetFontSize 45
+	MinimapIcon 0 Blue Circle
+	BaseType == "Dueling Wand" "Galvanic Wand" "Siphoning Wand" "Attuned Wand"
+	Rarity Normal Unique
+	ItemLevel >= 78
+
 #------------------------------------
 #   [0301] Crafting and Chancing Bases
 #------------------------------------
@@ -3320,7 +3341,7 @@ Show # $type->currency->catalysts $tier->restex !utility_unknownitem
 
 Show # $type->currency->essence $tier->s !apex_stier
 	Class == "Stackable Currency"
-	BaseType == "Essence of Horror" "Essence of Hysteria" "Perfect Essence of Battle"
+	BaseType == "Essence of Horror" "Essence of Hysteria"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3341,7 +3362,7 @@ Show # $type->currency->essence $tier->s !apex_stier
 
 Show # $type->currency->essence $tier->b !currency_b
 	Class == "Stackable Currency"
-	BaseType == "Essence of Abrasion" "Essence of Delirium" "Greater Essence of Haste" "Greater Essence of Ruin" "Perfect Essence of Haste" "Perfect Essence of Sorcery"
+	BaseType == "Perfect Essence of Battle" "Essence of Abrasion" "Essence of Delirium" "Greater Essence of Haste" "Greater Essence of Ruin" "Perfect Essence of Haste" "Perfect Essence of Sorcery"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3405,7 +3426,7 @@ Show # $type->currency->essence $tier->restex !utility_unknownitem
 
 Show # $type->currency->omen $tier->s !apex_stier
 	Class == "Omen"
-	BaseType == "Omen of Abyssal Echoes" "Omen of Chance" "Omen of Dextral Annulment" "Omen of Dextral Crystallisation" "Omen of Homogenising Exaltation" "Omen of Light" "Omen of Sanctification" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling"
+	BaseType == "Omen of Chance" "Omen of Dextral Annulment" "Omen of Dextral Crystallisation" "Omen of Homogenising Exaltation" "Omen of Light" "Omen of Sanctification" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3416,7 +3437,7 @@ Show # $type->currency->omen $tier->s !apex_stier
 
 Show # $type->currency->omen $tier->a !currency_a
 	Class == "Omen"
-	BaseType == "Omen of Amelioration" "Omen of Chaotic Rarity" "Omen of Corruption" "Omen of Dextral Erasure" "Omen of Putrefaction" "Omen of Recombination" "Omen of Sinistral Crystallisation"
+	BaseType == "Omen of Abyssal Echoes" "Omen of Amelioration" "Omen of Chaotic Rarity" "Omen of Corruption" "Omen of Dextral Erasure" "Omen of Putrefaction" "Omen of Recombination" "Omen of Sinistral Crystallisation"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
