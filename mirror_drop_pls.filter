@@ -2147,7 +2147,7 @@ Show # %D4 $type->sockets->general $tier->socketleveling2 !currency_supply2
 
 Show # $type->sockets->general $tier->s !apex_stier
 	Class == "Socketable"
-	BaseType == "Amanamu's Gaze" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Fox Talisman" "Hedgewitch Assandra's Rune of Wisdom" "Rabbit Talisman" "Talisman of Ralakesh" "Talisman of Sirrius" "Thane Girt's Rune of Wildness" "Thane Leld's Rune of Spring"
+	BaseType == "Amanamu's Gaze" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Fox Talisman" "Hedgewitch Assandra's Rune of Wisdom" "Rabbit Talisman" "Talisman of Ralakesh" "Talisman of Sirrius" "Thane Leld's Rune of Spring"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2158,7 +2158,7 @@ Show # $type->sockets->general $tier->s !apex_stier
 
 Show # $type->sockets->general $tier->a !currency_a
 	Class == "Socketable"
-	BaseType == "Atmohua's Soul Core of Retreat" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Soul Core of Azcapa" "Soul Core of Jiquani" "Soul Core of Tacati" "Tecrod's Gaze" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower"
+	BaseType == "Atmohua's Soul Core of Retreat" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Soul Core of Azcapa" "Soul Core of Jiquani" "Soul Core of Tacati" "Tecrod's Gaze" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower" "Thane Girt's Rune of Wildness"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
