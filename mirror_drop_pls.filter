@@ -468,12 +468,22 @@ Show
 	SetTextColor 255 149 244
 
 # FilterBlade: Conditional Entry
-Show
+Hide
 	SetBackgroundColor 60 0 0
 	SetBorderColor 200 0 0
 	SetFontSize 45
 	MinimapIcon 0 Blue Circle
 	BaseType == "Dueling Wand" "Galvanic Wand" "Siphoning Wand" "Attuned Wand"
+	Rarity Normal Unique
+	ItemLevel >= 78
+
+# FilterBlade: Conditional Entry
+Show
+	SetBackgroundColor 60 0 0
+	SetBorderColor 200 0 0
+	SetFontSize 45
+	MinimapIcon 0 Blue Circle
+	BaseType == "Bombard Crossbow"
 	Rarity Normal Unique
 	ItemLevel >= 78
 
@@ -3578,7 +3588,7 @@ Show # $type->uniques $tier->sekhemaring !uniques_a
 
 Show # $type->uniques $tier->t1 !apex_stier
 	Rarity Unique
-	BaseType == "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Artillery Bow" "Blacksteel Tower Shield" "Chain Tiara" "Conqueror Plate" "Desolate Crossbow" "Embroidered Gloves" "Emerald" "Face Mask" "Fine Bracers" "Golden Charm" "Helix Spear" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Primed Quiver" "Ring" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Utility Wraps" "Vase Relic" "Viper Cap"
+	BaseType == "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Chain Tiara" "Conqueror Plate" "Desolate Crossbow" "Embroidered Gloves" "Emerald" "Face Mask" "Fine Bracers" "Golden Charm" "Helix Spear" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Primed Quiver" "Ring" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Utility Wraps" "Vase Relic" "Viper Cap"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3589,7 +3599,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Diamond" "Expedition Precursor Tablet" "Grand Regalia" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Ruby" "Spiral Wraps" "Torment Club" "Unset Ring"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Diamond" "Expedition Precursor Tablet" "Grand Regalia" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Ruby" "Spiral Wraps" "Torment Club" "Unset Ring" "Artillery Bow"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
