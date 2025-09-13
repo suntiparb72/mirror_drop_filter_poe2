@@ -487,6 +487,15 @@ Show
 	Rarity Normal Unique
 	ItemLevel >= 78
 
+Show
+	SetBackgroundColor 60 0 0
+	SetBorderColor 200 0 0
+	SetFontSize 45
+	MinimapIcon 0 Blue Circle
+	BaseType == "Akoyan Spear"
+	Rarity Normal Unique
+	ItemLevel >= 80
+
 #------------------------------------
 #   [0301] Crafting and Chancing Bases
 #------------------------------------
