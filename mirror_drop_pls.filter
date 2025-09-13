@@ -3134,7 +3134,7 @@ Show # $type->currency $tier->c !currency_c
 	PlayEffect White
 	MinimapIcon 1 Yellow Circle
 
-Show # %H5 $type->currency $tier->d !currency_d
+Hide # %H5 $type->currency $tier->d !currency_d
 	Class == "Stackable Currency"
 	BaseType == "Chance Shard" "Orb of Alchemy" "Vaal Orb" "Regal Orb"
 	SetFontSize 40
