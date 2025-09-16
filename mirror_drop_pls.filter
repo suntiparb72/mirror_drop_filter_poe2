@@ -2338,7 +2338,7 @@ Show # $type->relics->generic $tier->any !exotics_dtier
 
 Show # $type->gems->lineage $tier->s !apex_stier
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Atalui's Bloodletting" "Brutus' Brain" "Dialla's Desire" "Esh's Radiance" "Rakiata's Flow" "Rigwald's Ferocity" "Tul's Stillness" "Uhtred's Augury" "Uhtred's Omen" "Uul-Netol's Embrace"
+	BaseType == "Atalui's Bloodletting" "Dialla's Desire" "Esh's Radiance" "Rakiata's Flow" "Rigwald's Ferocity" "Tul's Stillness" "Uhtred's Augury" "Uhtred's Omen" "Uul-Netol's Embrace"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2349,7 +2349,7 @@ Show # $type->gems->lineage $tier->s !apex_stier
 
 Show # $type->gems->lineage $tier->a !uniques_a
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Amanamu's Tithe" "Arbiter's Ignition" "Arjun's Medal" "Garukhan's Resolve" "Ixchel's Torment" "Kalisa's Crescendo" "Ratha's Assault" "Romira's Requital" "Uhtred's Exodus" "Xoph's Pyre" "Tacati's Ire"
+	BaseType == "Amanamu's Tithe" "Brutus' Brain" "Arbiter's Ignition" "Arjun's Medal" "Garukhan's Resolve" "Ixchel's Torment" "Kalisa's Crescendo" "Ratha's Assault" "Romira's Requital" "Uhtred's Exodus" "Xoph's Pyre" "Tacati's Ire"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3126,7 +3126,7 @@ Show # $type->currency $tier->b !currency_b
 
 Show # $type->currency $tier->c !currency_c
 	Class == "Stackable Currency"
-	BaseType == "Exalted Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Jawbone" "Preserved Vertebrae"
+	BaseType == "Exalted Orb" "Vaal Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Jawbone" "Preserved Vertebrae"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3597,7 +3597,7 @@ Show # $type->uniques $tier->sekhemaring !uniques_a
 
 Show # $type->uniques $tier->t1 !apex_stier
 	Rarity Unique
-	BaseType == "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Chain Tiara" "Conqueror Plate" "Desolate Crossbow" "Embroidered Gloves" "Emerald" "Face Mask" "Fine Bracers" "Golden Charm" "Helix Spear" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Primed Quiver" "Ring" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Utility Wraps" "Vase Relic" "Viper Cap"
+	BaseType == "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Chain Tiara" "Conqueror Plate" "Desolate Crossbow" "Embroidered Gloves" "Emerald" "Face Mask" "Fine Bracers" "Golden Charm" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Primed Quiver" "Ring" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Utility Wraps" "Vase Relic" "Viper Cap"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3608,7 +3608,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Diamond" "Expedition Precursor Tablet" "Grand Regalia" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Ruby" "Spiral Wraps" "Torment Club" "Unset Ring" "Artillery Bow"
+	BaseType == "Amethyst Charm" "Stone Charm" "Thawing Charm" "Helix Spear" "Breach Precursor Tablet" "Delirium Precursor Tablet" "Diamond" "Expedition Precursor Tablet" "Grand Regalia" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Ruby" "Spiral Wraps" "Torment Club" "Unset Ring" "Artillery Bow"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
