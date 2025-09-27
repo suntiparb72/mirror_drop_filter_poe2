@@ -3126,7 +3126,7 @@ Show # $type->currency $tier->b !currency_b
 
 Show # $type->currency $tier->c !currency_c
 	Class == "Stackable Currency"
-	BaseType == "Exalted Orb" "Vaal Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Jawbone" "Preserved Vertebrae"
+	BaseType == "Exalted Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Jawbone" "Preserved Vertebrae"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3134,9 +3134,9 @@ Show # $type->currency $tier->c !currency_c
 	PlayEffect White
 	MinimapIcon 1 Yellow Circle
 
-Hide # %H5 $type->currency $tier->d !currency_d
+Show # %H5 $type->currency $tier->d !currency_d
 	Class == "Stackable Currency"
-	BaseType == "Chance Shard" "Orb of Alchemy" "Vaal Orb" "Regal Orb"
+	BaseType == "Chance Shard" "Vaal Orb"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3146,7 +3146,7 @@ Hide # %H5 $type->currency $tier->d !currency_d
 
 Hide # %H3 $type->currency $tier->e !currency_e
 	Class == "Stackable Currency"
-	BaseType == "Arcanist's Etcher" "Blacksmith's Whetstone" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Orb of Transmutation" "Greater Orb of Augmentation" "Orb of Alchemy" "Regal Orb" "Artificer's Orb" "Vaal Orb" "Greater Jeweller's Orb" "Armourer's Scrap"
+	BaseType == "Orb of Alchemy" "Regal Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Orb of Transmutation" "Greater Orb of Augmentation" "Orb of Alchemy" "Regal Orb" "Artificer's Orb" "Greater Jeweller's Orb" "Armourer's Scrap"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
@@ -3154,12 +3154,12 @@ Hide # %H3 $type->currency $tier->e !currency_e
 # Artifacts and special drops
 
 Hide # $type->currency $tier->artifactlike !currency_specialartifact
-Class == "Stackable Currency"
-BaseType == "Black Scythe Artifact" "Broken Circle Artifact" "Order Artifact" "Sun Artifact"
-SetFontSize 40
-SetTextColor 240 207 132
-SetBorderColor 240 207 132
-SetBackgroundColor 76 51 12
+	Class == "Stackable Currency"
+	BaseType == "Black Scythe Artifact" "Broken Circle Artifact" "Order Artifact" "Sun Artifact"
+	SetFontSize 40
+	SetTextColor 240 207 132
+	SetBorderColor 240 207 132
+	SetBackgroundColor 76 51 12
 
 Hide # %H3 $type->currency $tier->supplymagic !currency_supply2
 	Class == "Stackable Currency"
