@@ -2219,7 +2219,7 @@ Show # %H6 $type->sockets->general $tier->c !currency_c
 	PlayEffect White
 	MinimapIcon 1 Yellow Circle
 
-Hide # %H5 $type->sockets->general $tier->d !currency_d
+Show # %H5 $type->sockets->general $tier->d !currency_d
 	Class == "Socketable"
 	BaseType == "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Storm Rune" "Iron Rune"
 	SetFontSize 40
@@ -2238,11 +2238,11 @@ SetTextColor 240 207 132
 SetBorderColor 240 207 132
 
 Hide # %H3 $type->sockets->general $tier->supplylow !currency_supply2
-Class == "Socketable"
-BaseType == "Adept Rune" "Body Rune" "Desert Rune" "Glacial Rune" "Inspiration Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Stone Rune" "Storm Rune" "Vision Rune"
-SetFontSize 38
-SetTextColor 220 175 132
-SetBorderColor 220 175 132
+	Class == "Socketable"
+	BaseType == "Adept Rune" "Body Rune" "Desert Rune" "Glacial Rune" "Inspiration Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Stone Rune" "Storm Rune" "Vision Rune"
+	SetFontSize 38
+	SetTextColor 220 175 132
+	SetBorderColor 220 175 132
 
 Hide # $type->sockets->general $tier->exhide !utility_minimize
 	Class == "Socketable"
@@ -3147,7 +3147,7 @@ Show # $type->currency $tier->c !currency_c
 
 Show # %H5 $type->currency $tier->d !currency_d
 	Class == "Stackable Currency"
-	BaseType == "Chance Shard" "Vaal Orb"
+	BaseType == "Chance Shard" "Vaal Orb" "Orb of Alchemy" "Regal Orb"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3157,7 +3157,7 @@ Show # %H5 $type->currency $tier->d !currency_d
 
 Hide # %H3 $type->currency $tier->e !currency_e
 	Class == "Stackable Currency"
-	BaseType == "Orb of Alchemy" "Regal Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Orb of Transmutation" "Greater Orb of Augmentation" "Orb of Alchemy" "Regal Orb" "Artificer's Orb" "Greater Jeweller's Orb" "Armourer's Scrap"
+	BaseType == "Arcanist's Etcher" "Blacksmith's Whetstone" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Orb of Transmutation" "Greater Orb of Augmentation" "Artificer's Orb" "Greater Jeweller's Orb" "Armourer's Scrap"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
@@ -3187,7 +3187,7 @@ Hide # %H1 $type->currency $tier->supplieslow !currency_supply4
 
 Hide # $type->currency $tier->exhide !utility_minimize
 	Class == "Stackable Currency"
-	BaseType == "Alchemy Shard" "Arcanist's Etcher" "Armourer's Scrap" "Artificer's Orb" "Artificer's Shard" "Black Scythe Artifact" "Blacksmith's Whetstone" "Broken Circle Artifact" "Chance Shard" "Chaos Orb" "Exalted Orb" "Exotic Coinage" "Gemcutter's Prism" "Glassblower's Bauble" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Greater Chaos Orb" "Greater Exalted Orb" "Greater Jeweller's Orb" "Greater Orb of Augmentation" "Greater Orb of Transmutation" "Greater Regal Orb" "Lesser Jeweller's Orb" "Orb of Alchemy" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Order Artifact" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Cranium" "Preserved Jawbone" "Preserved Rib" "Preserved Vertebrae" "Regal Orb" "Regal Shard" "Scroll of Wisdom" "Sun Artifact" "Transmutation Shard" "Vaal Orb"
+	BaseType == "Alchemy Shard" "Arcanist's Etcher" "Armourer's Scrap" "Artificer's Orb" "Artificer's Shard" "Black Scythe Artifact" "Blacksmith's Whetstone" "Broken Circle Artifact" "Chance Shard" "Chaos Orb" "Exalted Orb" "Exotic Coinage" "Gemcutter's Prism" "Glassblower's Bauble" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Greater Chaos Orb" "Greater Exalted Orb" "Greater Jeweller's Orb" "Greater Orb of Augmentation" "Greater Orb of Transmutation" "Greater Regal Orb" "Lesser Jeweller's Orb" "Orb of Augmentation" "Orb of Chance" "Orb of Transmutation" "Order Artifact" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Cranium" "Preserved Jawbone" "Preserved Rib" "Preserved Vertebrae" "Regal Orb" "Regal Shard" "Scroll of Wisdom" "Sun Artifact" "Transmutation Shard" "Vaal Orb"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
