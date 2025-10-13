@@ -493,7 +493,7 @@ Hide
 	SetFontSize 45
 	MinimapIcon 0 Blue Circle
 	BaseType == "Akoyan Spear"
-	Rarity Normal Unique
+	Rarity Normal
 	ItemLevel >= 80
 
 # FilterBlade: Conditional Entry
@@ -503,7 +503,7 @@ Show
 	SetFontSize 40
 	MinimapIcon 0 Blue Circle
 	BaseType == "Lapis Amulet" "Jade Amulet" "Amber Amulet" "Pearlescent Amulet"
-	Rarity Normal Magic Unique
+	Rarity Normal Magic
 	ItemLevel >= 81
 	SetTextColor 255 149 244
 
@@ -525,17 +525,17 @@ Show
 #	MinimapIcon 0 Red Star
 
 Show  # $type->chancing $tier->chancea !itemproperty_achancing
-Mirrored False
-Corrupted False
-Rarity Normal
-SetFontSize 45
-SetTextColor 125 255 89 255
-SetBorderColor 125 255 89 255
-SetBackgroundColor 0 50 0
-PlayAlertSound 1 300
-PlayEffect Red
-MinimapIcon 0 Red Diamond
-BaseType == "Heavy Belt" "Viper Cap"
+	Mirrored False
+	Corrupted False
+	Rarity Normal
+	SetFontSize 45
+	SetTextColor 125 255 89 255
+	SetBorderColor 125 255 89 255
+	SetBackgroundColor 0 50 0
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
+	BaseType == "Heavy Belt" "Viper Cap"
 
 #Show # %D2 $type->chancing $tier->chanceany !itemproperty_bchancing
 #	Mirrored False
